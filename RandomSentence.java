@@ -86,7 +86,7 @@ public class RandomSentence {
 				"winning", "losing", "trying", "failing", "crying", "feeding"};
 		//The pronouns
 		String[] pronounList = {"he", "she", "it", "they", "we"};
-		//The word randomizer; uses the array length to make expanding them easier.
+		//The word randomizer; uses the array length to make expanding the arrays easier.
 		noun = (int) Math.round((Math.random()*nounList.length)-1);
 		verb = (int) Math.round((Math.random()*verbList.length)-1);
 		adjective = (int) Math.round((Math.random()*adjList.length)-1);
